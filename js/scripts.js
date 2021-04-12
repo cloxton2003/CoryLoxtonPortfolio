@@ -207,7 +207,7 @@ $('.confirm_appointment').submit(function (e) {
 
     e.preventDefault();
 
-    var URL = "https://muner6btia.execute-api.us-east-2.amazonaws.com/production";
+    var URL = "https://muner6btia.execute-api.us-east-2.amazonaws.com/production/contact";
 
     var name = $("#name").val();
     var email = $("#email").val();
